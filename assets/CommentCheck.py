@@ -6,7 +6,7 @@ for path in Path('src').rglob('*.ts'):
 	#if path.name == 'config.ts':
 		with open(path,'r') as fileName:
 			first_line = fileName.readline()
-		if "// Name: ID:" in first_line:
+		if "// Name:Sean Bach ID:1360263" in first_line:
 			#print(path.name + ' 0')
 			error = error + 0;
 		else:

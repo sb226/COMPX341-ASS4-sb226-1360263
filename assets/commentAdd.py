@@ -7,7 +7,7 @@ for path in Path('src').rglob('*.ts'):
 		#sys.exit(0)
 		dummy = path.name 
 		with open(path,'r') as read_obj, open(dummy,'w') as write_obj:
-			write_obj.write('// Name: ID:\n')
+			write_obj.write('// Name:Sean Bach ID:1360263\n')
 			for line in read_obj:
 				write_obj.write(line)
 		os.remove(path)
