@@ -1,3 +1,5 @@
+// Name: ID:
+// SB and 1234567
 export default {
   apiGateway: {
     REGION: "us-east-1",
