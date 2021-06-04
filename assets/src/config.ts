@@ -1,5 +1,4 @@
-// Name: ID:
-// SB and 1234567
+// Name:Sean Bach ID:1360263
 export default {
   apiGateway: {
     REGION: "us-east-1",
